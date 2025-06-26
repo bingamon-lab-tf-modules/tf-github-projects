@@ -40,6 +40,7 @@ No modules.
 | [github_project_column.organization](https://registry.terraform.io/providers/integrations/github/6.6.0/docs/resources/project_column) | resource |
 | [github_project_column.repository](https://registry.terraform.io/providers/integrations/github/6.6.0/docs/resources/project_column) | resource |
 | [github_repository_project.this](https://registry.terraform.io/providers/integrations/github/6.6.0/docs/resources/repository_project) | resource |
+| [github_enterprise.this](https://registry.terraform.io/providers/integrations/github/6.6.0/docs/data-sources/enterprise) | data source |
 | [github_organization.this](https://registry.terraform.io/providers/integrations/github/6.6.0/docs/data-sources/organization) | data source |
 | [github_repositories.this](https://registry.terraform.io/providers/integrations/github/6.6.0/docs/data-sources/repositories) | data source |
 
