@@ -64,3 +64,5 @@ tfvars
 trivycache
 utilize
 prek
+SecretSpec
+mktemp
