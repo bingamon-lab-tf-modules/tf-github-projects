@@ -17,14 +17,14 @@ This module creates and configures a project inside a GitHub organization.
 ## Requirements
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.9.0 |
 | <a name="requirement_github"></a> [github](#requirement\_github) | ~> 6.13 |
 
 ## Providers
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="provider_github"></a> [github](#provider\_github) | 6.13.0 |
 
 ## Modules
@@ -34,7 +34,7 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [github_organization_project.this](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/organization_project) | resource |
 | [github_project_card.this](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/project_card) | resource |
 | [github_project_column.organization](https://registry.terraform.io/providers/integrations/github/latest/docs/resources/project_column) | resource |
@@ -47,7 +47,7 @@ No modules.
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_github_enterprise_slug"></a> [github\_enterprise\_slug](#input\_github\_enterprise\_slug) | The slug of the GitHub Enterprise where resources will be created.<br/><br/>  This is needed by the GitHub Enterprise Terraform provider.<br/><br/>  This can be set via either;<br/><br/>  - TF\_VAR\_github\_enterprise\_slug environment variable.<br/>  - github\_enterprise\_slug variable in the terraform.tfvars file. | `string` | n/a | yes |
 | <a name="input_github_managed_repositories"></a> [github\_managed\_repositories](#input\_github\_managed\_repositories) | List of repository names that are managed by Terraform. Passed from the repos module output. | `list(string)` | `[]` | no |
 | <a name="input_github_organization_name"></a> [github\_organization\_name](#input\_github\_organization\_name) | Required. The name of the GitHub organization to create the team in. | `string` | n/a | yes |
