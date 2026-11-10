@@ -71,3 +71,10 @@ tftest
 secops
 opentofu
 codeql
+artifactory
+nixfmt
+shellcheck
+shfmt
+statix
+trivy
+yamllint
